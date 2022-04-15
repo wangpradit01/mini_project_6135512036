@@ -30,7 +30,7 @@ const handleClick = () => setNav(!nav)
           
         </div>
       </div>
-      <ul className={!nav ? "hidden" : "absolute bg-slate-900 w-full px-8 text-orange-500"}>
+      <ul className="absolute bg-slate-900 w-full px-8 text-orange-500">
         <li className="border-b-2 border-orange-400 w-full hover:text-white">Home</li>
         <li className="border-b-2 border-orange-400 w-full hover:text-white">Recipes</li>
         <li className="border-b-2 border-orange-400 w-full hover:text-white">Fruit</li>
