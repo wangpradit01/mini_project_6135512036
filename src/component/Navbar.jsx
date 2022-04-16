@@ -8,21 +8,24 @@ const FOOD = () => {
     <div className="w-screen h-[80px] z-10 bg-orange-500 fixed drop-shadow-lg">
       <div className="px-2 flex justify-between items-center w-full h-full">
         <div className="flex items-center">
-          <h1 className="text-3xl font-bold text-slate-900 mr-4 sm:text-4xl">
+          <h1 className="text-3xl font-bold text-slate-900 mr-4 sm:text-5xl">
             THAI FOOD.
           </h1>
-          <ul className="hidden md:flex text-slate-900">
-            <li className="hover:text-white">Home</li>
+          <ul className="hidden md:flex text-slate-900 text-2xl">
+            <li className="hover:text-white ">Home</li>
+            
             <li className="hover:text-white">Recipes</li>
-            <li className="hover:text-white">Fruit</li>
             <li className="hover:text-white">Drink</li>
             <li className="hover:text-white">Support</li>
           </ul>
         </div>
-        <div className="hidden md:flex  pr-4">
-          <button className="px-5 py-3 hover:text-white mr-4 ">Sign In</button>
-          <button className="px-8 py-3 bg-slate-900 text-orange-500">Sign Up</button>
-        </div>
+       <div className="hidden md:flex pr-4">
+         <button className="border-none bg-orange-500 text-slate-900 hover:text-white text-2xl mr-4">Sign In</button>
+         <button className="px-5 py-3 border border-slate-900 bg-slate-900 text-orange-500 text-2xl hover:text-slate-900">Sign Up</button>
+       </div>
+
+        
+        
         
         <div className="md:hidden" onClick={handleClick}>
           {!nav ? (
