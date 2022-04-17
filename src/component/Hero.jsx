@@ -7,7 +7,7 @@ import {
 } from "@heroicons/react/solid";
 
 
-import bgImg from "../images/massaman.jpg";
+import bgImg from "../images/tykk.jpg";
 
 const Hero = () => {
   return (
