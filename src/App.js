@@ -1,13 +1,13 @@
 import FOOD from './component/Navbar';
 
-import Hero from './component/Hero';
+import Home from './component/Home';
 import Recipes from './component/Recipes';
 
 function App() {
   return (
    <>
     <FOOD/>
-    <Hero/>
+    <Home/>
     <Recipes/>
    </>
   );
