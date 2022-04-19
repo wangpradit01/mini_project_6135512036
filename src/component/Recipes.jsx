@@ -4,7 +4,7 @@ import back from "../images/back.jpg";
 const Recipes = () => {
   return (
     <div className=" w-full h-screen relative  ">
-      <div className="w-full h-full object-cover">
+      <div className="w-full h-full ">
         <img src={back} alt="" />
         <div className="absolute w-full h-full top-0  flex flex-col justify-center text-center">
           <h1 className="text-5xl text-orange-500 font-bold">Recipes</h1>

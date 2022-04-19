@@ -15,7 +15,7 @@ const FOOD = () => {
             <li className="hover:text-white ">Home</li>
             
             <li className="hover:text-white">Recipes</li>
-            <li className="hover:text-white">Drink</li>
+            
             <li className="hover:text-white">Support</li>
           </ul>
         </div>
