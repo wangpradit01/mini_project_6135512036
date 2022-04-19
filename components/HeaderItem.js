@@ -1,9 +1,14 @@
-// import React from 'react'
+import React from 'react'
 
-// function HeaderItem() {
-//   return (
-//     <div>HeaderItem</div>
-//   )
-// }
+function HeaderItem({ Icon,title}) {
+  return (
+      <div>
+          <Icon />
+          <p>{title}</p>
+      </div>
+    
 
-// export default HeaderItem
+  )
+}
+
+export default HeaderItem
